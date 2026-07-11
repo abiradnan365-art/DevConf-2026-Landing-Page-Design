@@ -90,7 +90,7 @@
 
 .hero-content h1 span {
     font-style: italic;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .hero-content p {
@@ -98,19 +98,18 @@
     color: white;
     line-height: 1.4;
     max-width: 700px;
-    margin: 0 auto 40px auto; 
-    margin-bottom: 150px;
+    margin-bottom: 160px;
 }
 /* Speaker css */
 .speakers-section {
-    padding: 80px 0 ;
+    padding: 80px 0;
 }
 
 .section-title {
     text-align: center;
     font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 48px;
+    font-weight: 700px;
+    margin-bottom: 50px;
 }
 
 .speakers-grid {
@@ -119,9 +118,8 @@
     gap: 32px; 
 }
 
-/* Single Card Design */
 .speaker-card {
-    background: white;
+    background:  whitesmoke;
     border: 1px solid rgb(180, 178, 178);
     border-radius: 12px;
     overflow: hidden;
@@ -141,7 +139,7 @@
 
 
 .speaker-info {
-    padding: 27px;
+    padding: 35px 25px;
 }
 
 .speaker-track {
@@ -149,7 +147,6 @@
     color: blue;
     font-size: 13px;
     font-weight: 600;
-    
     margin-bottom: 8px;
 }
 
@@ -161,12 +158,11 @@
 
 .speaker-info p {
     font-size: 14px;
-    color: #66696f;
-    font-weight: 400;
+    color: #6b6e75;
 }
-/* Card section */
+/* Pricing section */
 .card-section{
-    padding: 50px,0;
+    padding: 50px 0;
     
 }
 .card-section h1 {
@@ -227,17 +223,10 @@
     line-height: 1.4;
    
 }
-.btn-1{
-    border-color: blue;
-    height: 40px;
-    margin-top: 10px;
-    color: blue;
-    border-radius: 10px;
-}
 .btn-1 ,.btn-3{
     border-color: blue;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 13px;
     color: blue;
     border-radius: 10px;
     cursor: pointer;
@@ -245,7 +234,7 @@
 .btn-2{
     border-color: blue;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 13px;
     color: rgb(255, 255, 255);
     border-radius: 10px;
     background-color: blue;
@@ -264,7 +253,6 @@
   background: rgb(2, 2, 82); 
   padding: 40px 20px;
   text-align: center;
-  font-family: sans-serif;
   margin-bottom: 29px;
   border-radius: 10px;
  
@@ -317,7 +305,7 @@
 }
 .footer-divider {
   border: 0;
-  height: 1.5px;
+  height: 1.3px;
   background-color: rgba(255, 255, 255, 0.1); 
   margin-bottom: 20px;
 }
