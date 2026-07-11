@@ -141,29 +141,27 @@
 
 
 .speaker-info {
-    padding: 24px;
+    padding: 27px;
 }
 
 .speaker-track {
     display: inline-block;
     color: blue;
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    font-size: 13px;
+    font-weight: 600;
+    
     margin-bottom: 8px;
 }
 
 .speaker-info h3 {
     font-size: 20px;
     font-weight: 700;
-    color: black;
     margin-bottom: 6px;
 }
 
 .speaker-info p {
     font-size: 14px;
-    color: #64748b;
+    color: #66696f;
     font-weight: 400;
 }
 /* Card section */
@@ -257,5 +255,38 @@
     border-bottom: 1px solid rgb(199, 189, 189);
     padding-bottom: 15px;
     
+}
+/* state section */
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: rgb(2, 2, 71); 
+  padding: 40px 20px;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 8px;
+}
+.stats-heading{
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgb(134, 194, 215);
+
+}
+
+.stat-box {
+  margin: 15px;
+  min-width: 150px;
+}
+
+.stat-box h3 {
+  font-size: 2.5rem;
+  color: rgb(65, 65, 236); 
+  margin-bottom: 7px;
+}
+
+.stat-box p {
+  color: #9ca3af;
+  font-size: 1rem;
 }
 
