@@ -293,15 +293,17 @@
     padding: 0 35px;
     margin-bottom: 10px;
 }
+.footer-socials{
+    display: flex;
+    align-items: center;
+}
 
 .footer-socials a{
-    text-decoration: none; 
-    color: white;
-    margin-left: 20px;
-    font-size: 15px;
+    margin-left: 27px;
 }
-.footer-socials a:hover{
-   color: #999c9f;
+.social-icons{
+    width: 28px;
+    height: auto;  
 }
 .footer-divider {
   border: 0;
